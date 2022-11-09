@@ -27,7 +27,7 @@ namespace FormApp
             m_steps++;
             label1.Text = m_steps.ToString();
             progressBar1.Value = m_steps;
-            pictureBox1.Load("C:\\Users\\Hyunrak\\Pictures\\cytus2.jpg");
+            pictureBox1.Load("./2.png");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
