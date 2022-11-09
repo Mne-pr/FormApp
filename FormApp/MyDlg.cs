@@ -20,6 +20,7 @@ namespace FormApp
         private void button1_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult = DialogResult.OK;
+            MessageBox.Show("MyDlg OK");
             this.Close();
         }
 
