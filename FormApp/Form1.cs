@@ -31,7 +31,7 @@ namespace FormApp
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
-        { 
+        {
             String str = textBox1.Text;
             if (str.Trim() == "")
             {
@@ -60,13 +60,13 @@ namespace FormApp
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-           
+
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsDigit(e.KeyChar)) && e.KeyChar != Convert.ToChar(Keys.Back))
-            { 
+            {
                 e.Handled = true;
             }
             //숫자가 입력받도록 한것
@@ -134,7 +134,7 @@ namespace FormApp
             MyDlg dlg = new MyDlg();
             //dlg.Show();
             //하면 그냥 윈도우로 나올것이고
-            if(dlg.ShowDialog(this) == DialogResult.OK)
+            if (dlg.ShowDialog(this) == DialogResult.OK)
             {
                 label3.Text = dlg.textBox1.Text;
                 //MessageBox.Show("대화상자에서 OK");

@@ -22,5 +22,10 @@ namespace FormApp
             this.DialogResult = DialogResult = DialogResult.OK;
             this.Close();
         }
+
+        private void MyDlg_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -73,6 +73,7 @@ namespace FormApp
             this.Controls.Add(this.button1);
             this.Name = "MyDlg";
             this.Text = "MyDlg";
+            this.Load += new System.EventHandler(this.MyDlg_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
